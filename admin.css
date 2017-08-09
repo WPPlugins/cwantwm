@@ -1,0 +1,30 @@
+/* Re-align the grippie */
+form#settings #post-body .wp_themeSkin .mceStatusbar a.mceResize  {top:-2px;}
+
+.description {font-size: 11px !important;}
+
+/* Wysiwyg */
+#editorcontainer textarea {width:100%;}
+#poststuff .postarea{margin-bottom: 0px;}
+
+/* Attachment previews*/
+.option_preview {width: 100px;float: right;margin-top: -40px; word-wrap: break-word; text-align: center;}
+
+
+/* Metaboxes */
+#cwantwm_support {background:#085F8C; text-align:center; display: block; padding: 10px 0px 10px 0px;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;          
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;}
+#admin-section-tweets-wrap, #admin-section-forum-wrap {margin-bottom: 5px;}
+#admin-section-tweets-wrap li, #admin-section-forum-wrap li {background:#085F8C; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;          
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; color:#ffffff; padding:10px;margin-bottom: 15px;}
+#admin-section-tweets-wrap li a, #admin-section-forum-wrap li a {color:#ffffff; text-decoration:none; font-weight:bold;}
+
+/* Speech bubbles */
+.speech {position: relative;}
+.speech:after {
+    content:""; position:absolute; bottom:-10px; 
+    right:50px; border-width:10px 10px 0; border-style:solid;
+    border-color:#085F8C transparent; display:block; width:0;
+}
+
+
